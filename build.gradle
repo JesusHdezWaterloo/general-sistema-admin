@@ -1,0 +1,81 @@
+plugins {
+    id "edu.sc.seis.launch4j" version "2.4.6"
+    id 'java'
+    id 'jacoco'
+    id 'application'
+}
+
+group = 'com.jhw.clean.example'
+
+mainClassName = 'com.jhw.testingmodules.gestion.application.Main'
+
+
+repositories {
+    jcenter()
+    mavenCentral()
+}
+
+allprojects{
+    gradle.projectsEvaluated{
+        tasks.withType(JavaCompile){
+            //options.compilerArgs << "-Xlint:deprecation"
+            //options.compilerArgs << "-Xlint:unchecked"
+        }
+    }
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.13'
+
+    implementation project(':utils')
+    implementation project(':clean-core')
+    implementation project(':clean-swing')
+    
+    implementation project(':derivable-icons')
+    implementation project(':material-standards')
+    implementation project(':material-personalization')
+    implementation project(':material-chart')
+    implementation project(':material-swing')
+    implementation project(':material-notification')
+    implementation project(':material-model')
+    implementation project(':material-swing-preparated')
+    
+    implementation project(':module-console')
+    implementation project(':module-tec')
+    implementation project(':module-bug')
+    implementation project(':module-calc')
+    implementation project(':module-default-config')
+    implementation project(':module-licence')
+    implementation project(':module-company')
+    implementation project(':module-mysql')
+    
+    //modulos de gestion
+    implementation project(':module-contabilidad')
+    implementation project(':module-gasto')
+    implementation project(':module-nomina')
+    
+    //modulos admin
+    implementation project(':module-kanban')
+    
+    implementation project(':module-export')
+    implementation project(':module-files')
+    
+    compile group: 'mysql', name: 'mysql-connector-java', version: '8.0.17'
+    
+    //EclipseLink
+    compile group: 'org.eclipse.persistence', name: 'eclipselink', version: '2.7.6'
+    compile group: 'org.eclipse.persistence', name: 'org.eclipse.persistence.jpa', version: '2.7.6'
+    
+    //injection
+    compile group: 'com.google.inject', name: 'guice', version: '4.2.3'
+    compile group: 'javax.inject', name: 'javax.inject', version: '1'
+}
+
+launch4j {
+    headerType = 'gui'
+    outfile = 'CleanExample.exe'
+    mainClassName = 'com.jhw.clean.example.application.Main'
+    productName = 'CleanExample'
+    bundledJrePath = 'jre'
+    icon = "${projectDir}/src/main/resources/icon.ico" //ponerlo de ultimo
+}
