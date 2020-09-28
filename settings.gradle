@@ -1,4 +1,4 @@
-rootProject.name = 'TestingModulesGestion'
+rootProject.name = 'Admin'
 
 include 'utils', 'clean-core', 'clean-swing'
 project(':utils').projectDir = "E:\\Trabajos\\Projects\\GIT Projects Gradle\\Utils" as File

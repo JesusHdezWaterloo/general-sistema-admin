@@ -12,7 +12,9 @@ import com.jhw.testingmodules.gestion.application.services.NotificationServiceIm
 import com.jhw.testingmodules.gestion.application.services.ResourceServiceImplementation;
 import com.jhw.testingmodules.gestion.application.services.LoginServiceImplementation;
 import com.jhw.licence.services.LicenceHandler;
+import com.jhw.personalization.core.domain.Personalization;
 import com.jhw.personalization.services.PersonalizationHandler;
+import com.jhw.swing.bundles.tray.SystemTrayInstaller;
 import com.jhw.swing.models.utils.PersonalizationModel;
 import com.jhw.swing.ui.MaterialLookAndFeel;
 import java.io.File;
@@ -43,6 +45,16 @@ public class SwingApplication extends DefaultSwingApplication {
 
         //creada la carpeta al iniciar el sistema para que al final cuando se cierre no de error xq no existe
         new File(PersonalizationHandler.getString(PersonalizationFiles.KEY_TEMP_FOLDER)).mkdirs();
+    }
+
+    @Override
+    public void show() {
+        super.show();
+
+        //aqui, despues que se instalaron los modulos para que coja el icon
+        if (PersonalizationHandler.getBoolean(Personalization.KEY_HIDE_TO_SYSTEM_TRAY)) {
+            SystemTrayInstaller.builder(rootView()).build();
+        }
     }
 
     @Override
