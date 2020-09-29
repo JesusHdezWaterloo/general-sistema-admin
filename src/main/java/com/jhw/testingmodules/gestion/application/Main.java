@@ -53,7 +53,7 @@ public class Main {
                         
                         MySQLSwingModule.init(),
                         
-                        //ContabilidadSwingModule.init(),
+                        ContabilidadSwingModule.init(),
                         //GastoSwingModule.init(),
                         //NominaSwingModule.init()
                                                 
