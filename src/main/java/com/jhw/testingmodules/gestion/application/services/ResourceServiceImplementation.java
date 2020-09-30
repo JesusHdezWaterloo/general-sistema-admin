@@ -12,7 +12,7 @@ import java.net.MalformedURLException;
  */
 public class ResourceServiceImplementation implements ResourceService {
 
-    public static final String RESOURCE_URL = "msg/clean_example";
+    public static final String RESOURCE_URL = "admin";
 
     private final DefaultResourceBundleService resourceService;
 
