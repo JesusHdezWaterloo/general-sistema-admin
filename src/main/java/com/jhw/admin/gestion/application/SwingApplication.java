@@ -1,4 +1,4 @@
-package com.jhw.testingmodules.gestion.application;
+package com.jhw.admin.gestion.application;
 
 import com.clean.core.app.services.Notification;
 import com.clean.core.app.services.NotificationsGeneralType;
@@ -6,11 +6,11 @@ import com.clean.swing.app.DefaultSwingApplication;
 import static com.clean.swing.app.RootView.LOGIN_NAME;
 import com.jhw.files.utils.FILE;
 import com.jhw.files.utils.PersonalizationFiles;
-import com.jhw.testingmodules.gestion.application.services.ExceptionServiceImplementation;
-import com.jhw.testingmodules.gestion.application.services.NavigationServiceImplementation;
-import com.jhw.testingmodules.gestion.application.services.NotificationServiceImplementation;
-import com.jhw.testingmodules.gestion.application.services.ResourceServiceImplementation;
-import com.jhw.testingmodules.gestion.application.services.LoginServiceImplementation;
+import com.jhw.admin.gestion.application.services.ExceptionServiceImplementation;
+import com.jhw.admin.gestion.application.services.NavigationServiceImplementation;
+import com.jhw.admin.gestion.application.services.NotificationServiceImplementation;
+import com.jhw.admin.gestion.application.services.ResourceServiceImplementation;
+import com.jhw.admin.gestion.application.services.LoginServiceImplementation;
 import com.jhw.licence.services.LicenceHandler;
 import com.jhw.personalization.core.domain.Personalization;
 import com.jhw.personalization.services.PersonalizationHandler;

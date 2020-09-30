@@ -1,9 +1,9 @@
-package com.jhw.testingmodules.gestion.application.services;
+package com.jhw.admin.gestion.application.services;
 
 import com.clean.core.app.services.LoginHandler;
 import com.clean.core.app.services.LoginHandlerService;
-import com.jhw.testingmodules.gestion.application.Main;
-import com.jhw.testingmodules.gestion.application.User;
+import com.jhw.admin.gestion.application.Main;
+import com.jhw.admin.gestion.application.User;
 import com.jhw.utils.security.SHA;
 import java.lang.reflect.Method;
 

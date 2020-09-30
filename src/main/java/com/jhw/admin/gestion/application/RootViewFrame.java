@@ -1,7 +1,7 @@
-package com.jhw.testingmodules.gestion.application;
+package com.jhw.admin.gestion.application;
 
 import com.clean.swing.app.DefaultRootView;
-import com.jhw.testingmodules.gestion.application.dashboard.DashBoardFormateer;
+import com.jhw.admin.gestion.application.dashboard.DashBoardFormateer;
 import com.jhw.swing.material.components.dashboard.taskpane.expanded.DashBoardExtends;
 import com.jhw.swing.material.components.login.DefaultLoginPanel;
 import com.jhw.utils.interfaces.Update;

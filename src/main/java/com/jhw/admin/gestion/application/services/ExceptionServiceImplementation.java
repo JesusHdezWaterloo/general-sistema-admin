@@ -1,4 +1,4 @@
-package com.jhw.testingmodules.gestion.application.services;
+package com.jhw.admin.gestion.application.services;
 
 import com.clean.core.app.services.ExceptionHandler;
 import com.clean.core.app.services.ExceptionHandlerServiceFunctional;
