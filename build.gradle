@@ -5,9 +5,9 @@ plugins {
     id 'application'
 }
 
-group = 'com.jhw.clean.example'
+group = 'com.jhw.admin.gestion'
 
-mainClassName = 'com.jhw.testingmodules.gestion.application.Main'
+mainClassName = 'com.jhw.admin.gestion.application.Main'
 
 
 repositories {
@@ -73,9 +73,22 @@ dependencies {
 
 launch4j {
     headerType = 'gui'
-    outfile = 'CleanExample.exe'
-    mainClassName = 'com.jhw.clean.example.application.Main'
-    productName = 'CleanExample'
+    outfile = 'Admin.exe'
+    mainClassName = 'com.jhw.admin.gestion.application.Main'
+    productName = 'Admin'
     bundledJrePath = 'jre'
     icon = "${projectDir}/src/main/resources/icon.ico" //ponerlo de ultimo
 }
+
+task deploy(type: Copy){
+    def deployFolder = "${projectDir}/!App"
+    doFirst{
+        delete deployFolder + "/Admin.exe"
+        delete deployFolder + "/libs"
+    }
+    from "${projectDir}/build/launch4j"//carpeta del launch4j
+    into deployFolder
+}
+
+createExe.finalizedBy(deploy)
+build.finalizedBy(createExe)
