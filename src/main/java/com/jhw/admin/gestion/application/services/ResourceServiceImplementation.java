@@ -1,4 +1,4 @@
-package com.jhw.testingmodules.gestion.application.services;
+package com.jhw.admin.gestion.application.services;
 
 import com.clean.core.domain.services.Resource;
 import com.clean.core.domain.services.ResourceBundleUtils;
@@ -12,7 +12,7 @@ import java.net.MalformedURLException;
  */
 public class ResourceServiceImplementation implements ResourceService {
 
-    public static final String RESOURCE_URL = "msg/clean_example";
+    public static final String RESOURCE_URL = "admin";
 
     private final DefaultResourceBundleService resourceService;
 

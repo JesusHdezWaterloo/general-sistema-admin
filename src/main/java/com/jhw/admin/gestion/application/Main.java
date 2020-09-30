@@ -1,4 +1,4 @@
-package com.jhw.testingmodules.gestion.application;
+package com.jhw.admin.gestion.application;
 
 import com.jhw.company.ui.module.CompanySwingModule;
 import com.jhw.modules.tec.TecSwingModule;
@@ -53,9 +53,9 @@ public class Main {
                         
                         MySQLSwingModule.init(),
                         
-                        //ContabilidadSwingModule.init(),
-                        //GastoSwingModule.init(),
-                        //NominaSwingModule.init()
+                        ContabilidadSwingModule.init(),
+                        GastoSwingModule.init(),
+                        NominaSwingModule.init(),
                                                 
                         KanbanSwingModule.init()
                         

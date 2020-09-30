@@ -41,3 +41,7 @@ src/main/java/com/jhw/clean/example/application/MainTest.java
 db/
 
 src/main/java/com/jhw/testingmodules/gestion/application/MainTest.java
+
+jre/
+
+\!App/

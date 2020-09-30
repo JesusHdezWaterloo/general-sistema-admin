@@ -1,4 +1,4 @@
-package com.jhw.testingmodules.gestion.application.dashboard;
+package com.jhw.admin.gestion.application.dashboard;
 
 import com.jhw.personalization.core.domain.Personalization;
 import com.jhw.personalization.services.PersonalizationHandler;
