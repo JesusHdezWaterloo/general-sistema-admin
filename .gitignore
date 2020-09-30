@@ -43,3 +43,5 @@ db/
 src/main/java/com/jhw/testingmodules/gestion/application/MainTest.java
 
 jre/
+
+\!App/
