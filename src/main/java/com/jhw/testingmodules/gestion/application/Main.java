@@ -54,8 +54,8 @@ public class Main {
                         MySQLSwingModule.init(),
                         
                         ContabilidadSwingModule.init(),
-                        //GastoSwingModule.init(),
-                        //NominaSwingModule.init()
+                        GastoSwingModule.init(),
+                        NominaSwingModule.init(),
                                                 
                         KanbanSwingModule.init()
                         
