@@ -55,7 +55,7 @@ public class Main {
                         
                         ContabilidadSwingModule.init(),
                         GastoSwingModule.init(),
-                        NominaSwingModule.init(),
+                        //NominaSwingModule.init(),
                                                 
                         KanbanSwingModule.init()
                         
