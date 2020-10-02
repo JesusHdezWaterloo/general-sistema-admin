@@ -1,7 +1,6 @@
 package com.jhw.sistema.admin.application;
 
 import com.jhw.module.util.company.ui.module.CompanySwingModule;
-import com.jhw.modules.tec.TecSwingModule;
 import com.jhw.swing.bundles.loading.LoadingProcess;
 import com.jhw.swing.bundles.loading.LoadingWorker;
 import com.jhw.module.util.bug.module.BugSwingModule;
@@ -12,7 +11,6 @@ import com.jhw.module.util.default_config.DefaultConfigSwingModule;
 import com.jhw.module.util.licence.ui.module.LicenceSwingModule;
 import com.jhw.module.util.mysql.ui.module.MySQLSwingModule;
 import com.jhw.module.util.console.ConsoleSwingModule;
-import com.jhw.personalization.ui.module.PersonalizationSwingModule;
 import com.jhw.swing.material.components.splashScreen.SplashScreen;
 import com.jhw.swing.material.standards.MaterialIcons;
 import javax.swing.JPanel;
@@ -20,6 +18,8 @@ import com.jhw.module.gestion.gastos.ui.module.GastoSwingModule;
 import com.jhw.module.gestion.nomina.ui.module.NominaSwingModule;
 import com.jhw.module.gestion.contabilidad.ui.module.ContabilidadSwingModule;
 import com.jhw.module.admin.kanban.ui.module.KanbanSwingModule;
+import com.jhw.module.util.personalization.ui.module.PersonalizationSwingModule;
+import com.jhw.module.util.tec.TecSwingModule;
 
 /**
  *
