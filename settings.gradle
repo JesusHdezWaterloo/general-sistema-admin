@@ -1,39 +1,76 @@
-rootProject.name = 'Admin'
+rootProject.name = 'general-sistema-admin'
 
-include 'utils', 'clean-core', 'clean-swing'
-project(':utils').projectDir = "E:\\Trabajos\\Projects\\GIT Projects Gradle\\Utils" as File
-project(':clean-core').projectDir = "E:\\Trabajos\\Projects\\GIT Projects Gradle\\CleanCoreFull" as File
-project(':clean-swing').projectDir = "E:\\Trabajos\\Projects\\GIT Projects Gradle\\CleanSwing" as File
+include ':clean-core-full'
+project(':clean-core-full').projectDir = "E:\\Trabajos\\Projects\\GIT Projects Gradle\\clean-core-full" as File
 
-include 'derivable-icons', 'material-swing-preparated', 'material-standards', 'material-personalization', 'material-chart', 'material-swing', 'material-notification', 'material-model'
-project(':derivable-icons').projectDir = "E:\\Trabajos\\Projects\\GIT Projects Gradle\\Material\\Derivable Icons" as File
-project(':material-standards').projectDir = "E:\\Trabajos\\Projects\\GIT Projects Gradle\\Material\\Standards" as File
-project(':material-personalization').projectDir = "E:\\Trabajos\\Projects\\GIT Projects Gradle\\Modulos Utils\\Personalization" as File
-project(':material-chart').projectDir = "E:\\Trabajos\\Projects\\GIT Projects Gradle\\Material\\Chart" as File
-project(':material-swing').projectDir = "E:\\Trabajos\\Projects\\GIT Projects Gradle\\MaterialSwing" as File
-project(':material-notification').projectDir = "E:\\Trabajos\\Projects\\GIT Projects Gradle\\Material\\Notifications" as File
-project(':material-model').projectDir = "E:\\Trabajos\\Projects\\GIT Projects Gradle\\Material\\Model" as File
-project(':material-swing-preparated').projectDir = "E:\\Trabajos\\Projects\\GIT Projects Gradle\\Material\\SwingPrepared" as File
+include ':clean-swing'
+project(':clean-swing').projectDir = "E:\\Trabajos\\Projects\\GIT Projects Gradle\\clean-swing" as File
 
-include 'module-console', 'module-tec', 'module-bug', 'module-calc', 'module-default-config', 'module-licence', 'module-company', 'module-mysql'
-project(':module-console').projectDir = "E:\\Trabajos\\Projects\\GIT Projects Gradle\\Modulos Utils\\Console" as File
-project(':module-tec').projectDir = "E:\\Trabajos\\Projects\\GIT Projects Gradle\\Modulos Utils\\Tec" as File
-project(':module-bug').projectDir = "E:\\Trabajos\\Projects\\GIT Projects Gradle\\Modulos Utils\\Bug" as File
-project(':module-calc').projectDir = "E:\\Trabajos\\Projects\\GIT Projects Gradle\\Modulos Utils\\Calc" as File
-project(':module-default-config').projectDir = "E:\\Trabajos\\Projects\\GIT Projects Gradle\\Modulos Utils\\DefaultConfiguration" as File
-project(':module-licence').projectDir = "E:\\Trabajos\\Projects\\GIT Projects Gradle\\Modulos Utils\\Licence" as File
-project(':module-company').projectDir = "E:\\Trabajos\\Projects\\GIT Projects Gradle\\Modulos Utils\\Company" as File
-project(':module-mysql').projectDir = "E:\\Trabajos\\Projects\\GIT Projects Gradle\\Modulos Utils\\MySQL" as File
+include ':utils-core'
+project(':utils-core').projectDir = "E:\\Trabajos\\Projects\\GIT Projects Gradle\\utils-core" as File
 
+include ':swing-derivable_icons'
+project(':swing-derivable_icons').projectDir = "E:\\Trabajos\\Projects\\GIT Projects Gradle\\swing-derivable_icons" as File
 
-include ':module-contabilidad', 'module-gasto', 'module-nomina'
-project(':module-contabilidad').projectDir = "E:\\Trabajos\\Projects\\GIT Projects Gradle\\Modulos Gestion\\Contabilidad Empresarial" as File
-project(':module-gasto').projectDir = "E:\\Trabajos\\Projects\\GIT Projects Gradle\\Modulos Gestion\\Gastos Administrativos" as File
-project(':module-nomina').projectDir = "E:\\Trabajos\\Projects\\GIT Projects Gradle\\Modulos Gestion\\Nomina" as File
+include ':swing-material-standards'
+project(':swing-material-standards').projectDir = "E:\\Trabajos\\Projects\\GIT Projects Gradle\\swing-material-standards" as File
 
-include ':module-kanban'
-project(':module-kanban').projectDir = "E:\\Trabajos\\Projects\\GIT Projects Gradle\\Modulos Admin\\Kanban" as File
+include ':module-util-personalization'
+project(':module-util-personalization').projectDir = "E:\\Trabajos\\Projects\\GIT Projects Gradle\\module-util-personalization" as File
 
-include 'module-export', 'module-files'
-project(':module-export').projectDir = "E:\\Trabajos\\Projects\\GIT Projects Gradle\\Modulos Utils\\Export" as File
-project(':module-files').projectDir = "E:\\Trabajos\\Projects\\GIT Projects Gradle\\Modulos Utils\\Files" as File
+include ':swing-material-chart'
+project(':swing-material-chart').projectDir = "E:\\Trabajos\\Projects\\GIT Projects Gradle\\swing-material-chart" as File
+
+include ':swing-material-core'
+project(':swing-material-core').projectDir = "E:\\Trabajos\\Projects\\GIT Projects Gradle\\swing-material-core" as File
+
+include ':swing-material-notifications'
+project(':swing-material-notifications').projectDir = "E:\\Trabajos\\Projects\\GIT Projects Gradle\\swing-material-notifications" as File
+
+include ':swing-material-prepared'
+project(':swing-material-prepared').projectDir = "E:\\Trabajos\\Projects\\GIT Projects Gradle\\swing-material-prepared" as File
+
+include ':swing-material-model'
+project(':swing-material-model').projectDir = "E:\\Trabajos\\Projects\\GIT Projects Gradle\\swing-material-model" as File
+
+include ':module-util-default_configuration'
+project(':module-util-default_configuration').projectDir = "E:\\Trabajos\\Projects\\GIT Projects Gradle\\module-util-default_configuration" as File
+
+include ':module-util-my_sql'
+project(':module-util-my_sql').projectDir = "E:\\Trabajos\\Projects\\GIT Projects Gradle\\module-util-my_sql" as File
+
+include ':module-util-licence'
+project(':module-util-licence').projectDir = "E:\\Trabajos\\Projects\\GIT Projects Gradle\\module-util-licence" as File
+
+include ':utils-export'
+project(':utils-export').projectDir = "E:\\Trabajos\\Projects\\GIT Projects Gradle\\utils-export" as File
+
+include ':utils-files'
+project(':utils-files').projectDir = "E:\\Trabajos\\Projects\\GIT Projects Gradle\\utils-files" as File
+
+include ':module-gestion-contabilidad_empresarial'
+project(':module-gestion-contabilidad_empresarial').projectDir = "E:\\Trabajos\\Projects\\GIT Projects Gradle\\module-gestion-contabilidad_empresarial" as File
+
+include ':module-admin-kanban'
+project(':module-admin-kanban').projectDir = "E:\\Trabajos\\Projects\\GIT Projects Gradle\\module-admin-kanban" as File
+
+include ':module-gestion-gastos_administrativos'
+project(':module-gestion-gastos_administrativos').projectDir = "E:\\Trabajos\\Projects\\GIT Projects Gradle\\module-gestion-gastos_administrativos" as File
+
+include ':module-gestion-nomina'
+project(':module-gestion-nomina').projectDir = "E:\\Trabajos\\Projects\\GIT Projects Gradle\\module-gestion-nomina" as File
+
+include ':module-util-bug'
+project(':module-util-bug').projectDir = "E:\\Trabajos\\Projects\\GIT Projects Gradle\\module-util-bug" as File
+
+include ':module-util-calc'
+project(':module-util-calc').projectDir = "E:\\Trabajos\\Projects\\GIT Projects Gradle\\module-util-calc" as File
+
+include ':module-util-company'
+project(':module-util-company').projectDir = "E:\\Trabajos\\Projects\\GIT Projects Gradle\\module-util-company" as File
+
+include ':module-util-console'
+project(':module-util-console').projectDir = "E:\\Trabajos\\Projects\\GIT Projects Gradle\\module-util-console" as File
+
+include ':module-util-tec'
+project(':module-util-tec').projectDir = "E:\\Trabajos\\Projects\\GIT Projects Gradle\\module-util-tec" as File

@@ -27,39 +27,39 @@ allprojects{
 dependencies {
     testImplementation 'junit:junit:4.13'
 
-    implementation project(':utils')
-    implementation project(':clean-core')
+    implementation project(':utils-core')
+    
+    implementation project(':clean-core-full')
     implementation project(':clean-swing')
     
-    implementation project(':derivable-icons')
-    implementation project(':material-standards')
-    implementation project(':material-personalization')
-    implementation project(':material-chart')
-    implementation project(':material-swing')
-    implementation project(':material-notification')
-    implementation project(':material-model')
-    implementation project(':material-swing-preparated')
+    implementation project(':swing-derivable_icons')
+
+    implementation project(':swing-material-standards')
+    implementation project(':swing-material-core')
+    implementation project(':swing-material-prepared')
+    implementation project(':swing-material-notifications')
+    implementation project(':swing-material-chart')
+    implementation project(':swing-material-model')
     
-    implementation project(':module-console')
-    implementation project(':module-tec')
-    implementation project(':module-bug')
-    implementation project(':module-calc')
-    implementation project(':module-default-config')
-    implementation project(':module-licence')
-    implementation project(':module-company')
-    implementation project(':module-mysql')
+    implementation project(':module-util-personalization')
+    implementation project(':module-util-default_configuration')
+    implementation project(':module-util-licence')
+    implementation project(':module-util-my_sql')
     
-    //modulos de gestion
-    implementation project(':module-contabilidad')
-    implementation project(':module-gasto')
-    implementation project(':module-nomina')
+    implementation project(':utils-export')
+    implementation project(':utils-files')
     
-    //modulos admin
-    implementation project(':module-kanban')
+    implementation project(':module-gestion-contabilidad_empresarial')
+    implementation project(':module-admin-kanban')
+    implementation project(':module-gestion-gastos_administrativos')
+    implementation project(':module-gestion-nomina')
     
-    implementation project(':module-export')
-    implementation project(':module-files')
-    
+    implementation project(':module-util-bug')
+    implementation project(':module-util-calc')
+    implementation project(':module-util-company')
+    implementation project(':module-util-console')
+    implementation project(':module-util-tec')
+        
     compile group: 'mysql', name: 'mysql-connector-java', version: '8.0.17'
     
     //EclipseLink

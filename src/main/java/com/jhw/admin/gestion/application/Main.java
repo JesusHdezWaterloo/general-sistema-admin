@@ -45,13 +45,15 @@ public class Main {
                 app.registerModule(
                         PersonalizationSwingModule.init(),
                         DefaultConfigSwingModule.init(),
+                        
+                        MySQLSwingModule.init(),
+                        
                         BugSwingModule.init(),
                         CalcSwingModule.init(),
                         TecSwingModule.init(),
                         LicenceSwingModule.init(),
                         CompanySwingModule.init(),
                         
-                        MySQLSwingModule.init(),
                         
                         ContabilidadSwingModule.init(),
                         GastoSwingModule.init(),
