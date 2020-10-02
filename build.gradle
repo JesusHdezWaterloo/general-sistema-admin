@@ -5,9 +5,9 @@ plugins {
     id 'application'
 }
 
-group = 'com.jhw.admin.gestion'
+group = 'com.jhw.sistema'
 
-mainClassName = 'com.jhw.admin.gestion.application.Main'
+mainClassName = 'com.jhw.sistema.admin.application.Main'
 
 
 repositories {
@@ -44,7 +44,7 @@ dependencies {
     implementation project(':module-util-personalization')
     implementation project(':module-util-default_configuration')
     implementation project(':module-util-licence')
-    implementation project(':module-util-my_sql')
+    implementation project(':module-util-mysql')
     
     implementation project(':utils-export')
     implementation project(':utils-files')

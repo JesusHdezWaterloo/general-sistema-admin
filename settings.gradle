@@ -36,8 +36,8 @@ project(':swing-material-model').projectDir = "E:\\Trabajos\\Projects\\GIT Proje
 include ':module-util-default_configuration'
 project(':module-util-default_configuration').projectDir = "E:\\Trabajos\\Projects\\GIT Projects Gradle\\module-util-default_configuration" as File
 
-include ':module-util-my_sql'
-project(':module-util-my_sql').projectDir = "E:\\Trabajos\\Projects\\GIT Projects Gradle\\module-util-my_sql" as File
+include ':module-util-mysql'
+project(':module-util-mysql').projectDir = "E:\\Trabajos\\Projects\\GIT Projects Gradle\\module-util-mysql" as File
 
 include ':module-util-licence'
 project(':module-util-licence').projectDir = "E:\\Trabajos\\Projects\\GIT Projects Gradle\\module-util-licence" as File

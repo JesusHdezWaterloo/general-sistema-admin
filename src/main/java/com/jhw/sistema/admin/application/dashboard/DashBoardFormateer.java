@@ -1,7 +1,7 @@
-package com.jhw.admin.gestion.application.dashboard;
+package com.jhw.sistema.admin.application.dashboard;
 
-import com.jhw.personalization.core.domain.Personalization;
-import com.jhw.personalization.services.PersonalizationHandler;
+import com.jhw.module.util.personalization.core.domain.Personalization;
+import com.jhw.module.util.personalization.services.PersonalizationHandler;
 import com.jhw.swing.material.components.container.panel._PanelGradient;
 import com.jhw.swing.material.components.dashboard.taskpane.expanded.DashBoardExtends;
 import com.jhw.swing.material.components.dashboard.taskpane.expanded.DownPanel;
