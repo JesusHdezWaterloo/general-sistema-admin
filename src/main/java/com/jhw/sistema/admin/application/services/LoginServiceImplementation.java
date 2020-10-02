@@ -1,9 +1,9 @@
-package com.jhw.admin.gestion.application.services;
+package com.jhw.sistema.admin.application.services;
 
 import com.clean.core.app.services.LoginHandler;
 import com.clean.core.app.services.LoginHandlerService;
-import com.jhw.admin.gestion.application.Main;
-import com.jhw.admin.gestion.application.User;
+import com.jhw.sistema.admin.application.Main;
+import com.jhw.sistema.admin.application.User;
 import com.jhw.utils.security.SHA;
 import java.lang.reflect.Method;
 
