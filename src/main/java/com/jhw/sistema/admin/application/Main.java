@@ -53,11 +53,10 @@ public class Main {
                         TecSwingModule.init(),
                         LicenceSwingModule.init(),
                         CompanySwingModule.init(),
-                        
-                        
+                                                
                         ContabilidadSwingModule.init(),
                         GastoSwingModule.init(),
-                        NominaSwingModule.init(),
+                        //NominaSwingModule.init(),
                                                 
                         KanbanSwingModule.init()
                         

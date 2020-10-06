@@ -74,7 +74,7 @@ dependencies {
 launch4j {
     headerType = 'gui'
     outfile = 'Admin.exe'
-    mainClassName = 'com.jhw.admin.gestion.application.Main'
+    mainClassName = 'com.jhw.sistema.admin.application.Main'
     productName = 'Admin'
     bundledJrePath = 'jre'
     icon = "${projectDir}/src/main/resources/icon.ico" //ponerlo de ultimo
