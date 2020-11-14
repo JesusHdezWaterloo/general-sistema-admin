@@ -9,17 +9,15 @@ import com.jhw.swing.material.components.container.panel._PanelGradient;
 import javax.swing.JOptionPane;
 import com.jhw.module.util.default_config.DefaultConfigSwingModule;
 import com.jhw.module.util.licence.ui.module.LicenceSwingModule;
-import com.jhw.module.util.mysql.ui.module.MySQLSwingModule;
 import com.jhw.module.util.console.ConsoleSwingModule;
-import com.jhw.swing.material.components.splashScreen.SplashScreen;
 import com.jhw.swing.material.standards.MaterialIcons;
 import javax.swing.JPanel;
 import com.jhw.module.gestion.gastos.ui.module.GastoSwingModule;
-import com.jhw.module.gestion.nomina.ui.module.NominaSwingModule;
 import com.jhw.module.gestion.contabilidad.ui.module.ContabilidadSwingModule;
 import com.jhw.module.admin.kanban.ui.module.KanbanSwingModule;
-import com.jhw.module.util.personalization.ui.module.PersonalizationSwingModule;
+import com.jhw.module.util.local_server.ui.module.LocalServerSwingModule;
 import com.jhw.module.util.tec.TecSwingModule;
+import com.jhw.swing.material.components.splashScreen.SplashScreen;
 
 /**
  *
@@ -31,35 +29,25 @@ public class Main {
     public static User user;
 
     public static void main(String args[]) throws Exception {
-        new LoadingWorker<Void>(new SplashScreen() {
-            @Override
-            public JPanel mainSplash() {
-                _PanelGradient back = new _PanelGradient();
-                back.setIcon(MaterialIcons.CARD_GIFTCARD.deriveIcon(500));
-                return back;
-            }
-        }, new LoadingProcess<Void>() {
+        _PanelGradient back = new _PanelGradient();
+        back.setIcon(MaterialIcons.CARD_GIFTCARD.deriveIcon(500));
+
+        new LoadingWorker<Void>(SplashScreen.from(back), new LoadingProcess<Void>() {
             @Override
             public Void process() throws Exception {
                 app.run();
                 app.registerModule(
-                        PersonalizationSwingModule.init(),
                         DefaultConfigSwingModule.init(),
-                        
-                        MySQLSwingModule.init(),
-                        
                         BugSwingModule.init(),
                         CalcSwingModule.init(),
                         TecSwingModule.init(),
                         LicenceSwingModule.init(),
                         CompanySwingModule.init(),
-                                                
+                        LocalServerSwingModule.init(),
+                        
                         ContabilidadSwingModule.init(),
                         GastoSwingModule.init(),
-                        //NominaSwingModule.init(),
-                                                
                         KanbanSwingModule.init()
-                        
                 );
                 return null;
             }
