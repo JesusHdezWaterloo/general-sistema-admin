@@ -7,6 +7,8 @@ plugins {
 
 group = 'com.jhw.sistema'
 
+version = '2.0.0.SNAPSHOT.20201114'
+
 mainClassName = 'com.jhw.sistema.admin.application.Main'
 
 
@@ -25,8 +27,6 @@ allprojects{
 }
 
 dependencies {
-    testImplementation 'junit:junit:4.13'
-
     implementation project(':utils-core')
     
     implementation project(':clean-core-full')
@@ -48,17 +48,24 @@ dependencies {
     
     implementation project(':utils-export')
     implementation project(':utils-files')
+    implementation project(':utils-spring')
     
-    implementation project(':module-gestion-contabilidad_empresarial')
-    implementation project(':module-admin-kanban')
-    implementation project(':module-gestion-gastos_administrativos')
-    implementation project(':module-gestion-nomina')
+    implementation project(':module-gestion-contabilidad_empresarial-client')    
+    implementation project(':module-gestion-contabilidad_empresarial-standard')
+    
+    implementation project(':module-gestion-gastos_administrativos-client')    
+    implementation project(':module-gestion-gastos_administrativos-standard')
+    
+    implementation project(':module-admin-kanban-client')    
+    implementation project(':module-admin-kanban-standard')
     
     implementation project(':module-util-bug')
     implementation project(':module-util-calc')
     implementation project(':module-util-company')
     implementation project(':module-util-console')
     implementation project(':module-util-tec')
+    implementation project(':module-util-rest_config')
+    implementation project(':module-util-local_server')
         
     compile group: 'mysql', name: 'mysql-connector-java', version: '8.0.17'
     
@@ -74,7 +81,7 @@ dependencies {
 launch4j {
     headerType = 'gui'
     outfile = 'Admin.exe'
-    mainClassName = 'com.jhw.admin.gestion.application.Main'
+    mainClassName = 'com.jhw.sistema.admin.application.Main'
     productName = 'Admin'
     bundledJrePath = 'jre'
     icon = "${projectDir}/src/main/resources/icon.ico" //ponerlo de ultimo
