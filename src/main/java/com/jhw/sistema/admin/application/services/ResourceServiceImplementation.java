@@ -24,7 +24,7 @@ public class ResourceServiceImplementation implements ResourceService {
 
     private ResourceServiceImplementation() throws MalformedURLException {
         resourceService = new DefaultResourceBundleService(
-                ResourceBundleUtils.fromExternalFile(RESOURCE_URL,
+                ResourceBundleUtils.fromInternalFile(RESOURCE_URL,
                         ResourceBundleUtils.SPANISH));
     }
 
