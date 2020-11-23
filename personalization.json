@@ -1,0 +1,130 @@
+{
+  "swing_personalization.key.icon.button_add" : {
+    "ch" : "57669",
+    "size" : "24.0"
+  },
+  "swing_personalization.key.boolean.do_beep" : true,
+  "swing_personalization.key.color.wrong" : {
+    "r" : "198",
+    "g" : "40",
+    "b" : "40",
+    "a" : "255"
+  },
+  "swing_personalization.key.color.warning" : {
+    "r" : "255",
+    "g" : "214",
+    "b" : "0",
+    "a" : "255"
+  },
+  "swing_personalization.key.int.tooltip_init_delay" : 0.0,
+  "swing_personalization.key.color.info" : {
+    "r" : "25",
+    "g" : "118",
+    "b" : "210",
+    "a" : "255"
+  },
+  "swing_personalization.key.int.tooltip_desmiss_delay" : 30000,
+  "files_personalization.key.string.temp_folder" : "temp",
+  "swing_personalization.key.boolean.use_animations_notifications" : true,
+  "swing_personalization.key.boolean.use_antialiasing" : true,
+  "swing_personalization.key.color.main" : {
+    "r" : "68",
+    "g" : "138",
+    "b" : "255",
+    "a" : "255"
+  },
+  "swing_personalization.key.boolean.hide_to_system_tray" : true,
+  "swing_personalization.key.boolean.use_double_delete_check" : false,
+  "swing_personalization.key.color.secundary" : {
+    "r" : "13",
+    "g" : "71",
+    "b" : "161",
+    "a" : "255"
+  },
+  "material_personalization.key.boolean.show_icon_input" : true,
+  "swing_personalization.key.color.background_panel" : {
+    "r" : "255",
+    "g" : "255",
+    "b" : "255",
+    "a" : "255"
+  },
+  "swing_personalization.key.boolean.use_animations" : false,
+  "swing_personalization.key.boolean.use_shadow" : true,
+  "swing_personalization.key.icon.button_view" : {
+    "ch" : "59632",
+    "size" : "24.0"
+  },
+  "swing_personalization.key.color.button_add" : {
+    "r" : "56",
+    "g" : "142",
+    "b" : "60",
+    "a" : "255"
+  },
+  "swing_personalization.key.color.money_negative" : {
+    "r" : "213",
+    "g" : "0",
+    "b" : "0",
+    "a" : "255"
+  },
+  "model_personalization.key.boolean.show_icon_detail" : true,
+  "swing_personalization.key.color.button_view" : {
+    "r" : "69",
+    "g" : "90",
+    "b" : "100",
+    "a" : "255"
+  },
+  "swing_personalization.key.color.button_edit" : {
+    "r" : "21",
+    "g" : "101",
+    "b" : "192",
+    "a" : "255"
+  },
+  "material_personalization.key.boolean.format_text_fields" : true,
+  "swing_personalization.key.color.accent" : {
+    "r" : "41",
+    "g" : "121",
+    "b" : "255",
+    "a" : "255"
+  },
+  "swing_personalization.key.color.error" : {
+    "r" : "213",
+    "g" : "0",
+    "b" : "0",
+    "a" : "255"
+  },
+  "swing_personalization.key.color.done" : {
+    "r" : "56",
+    "g" : "142",
+    "b" : "60",
+    "a" : "255"
+  },
+  "swing_personalization.key.color.button_cancel" : {
+    "r" : "211",
+    "g" : "47",
+    "b" : "47",
+    "a" : "255"
+  },
+  "swing_personalization.key.color.foreground_for_dark" : {
+    "r" : "255",
+    "g" : "255",
+    "b" : "255",
+    "a" : "255"
+  },
+  "swing_personalization.key.color.money_positive" : {
+    "r" : "27",
+    "g" : "94",
+    "b" : "32",
+    "a" : "255"
+  },
+  "swing_personalization.key.int.notification_duration" : 3,
+  "swing_personalization.key.color.foreground_for_white" : {
+    "r" : "0",
+    "g" : "0",
+    "b" : "0",
+    "a" : "222"
+  },
+  "swing_personalization.key.icon.button_edit" : {
+    "ch" : "58313",
+    "size" : "24.0"
+  }
+}
