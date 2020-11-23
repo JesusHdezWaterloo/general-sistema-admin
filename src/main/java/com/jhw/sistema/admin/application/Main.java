@@ -16,6 +16,7 @@ import com.jhw.module.gestion.gastos.ui.module.GastoSwingModule;
 import com.jhw.module.gestion.contabilidad.ui.module.ContabilidadSwingModule;
 import com.jhw.module.admin.kanban.ui.module.KanbanSwingModule;
 import com.jhw.module.util.local_server.ui.module.LocalServerSwingModule;
+import com.jhw.module.util.rest_config.ui.module.RestConfigSwingModule;
 import com.jhw.module.util.tec.TecSwingModule;
 import com.jhw.swing.material.components.splashScreen.SplashScreen;
 
@@ -43,6 +44,7 @@ public class Main {
                         TecSwingModule.init(),
                         LicenceSwingModule.init(),
                         CompanySwingModule.init(),
+                        RestConfigSwingModule.init(),
                         LocalServerSwingModule.init(),
                         
                         ContabilidadSwingModule.init(),
