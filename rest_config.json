@@ -1,14 +1,15 @@
 {
-  "list" : [ {
-    "ip" : "localhost",
-    "portRest" : 7777,
-    "portApache" : 7780,
-    "name" : "local",
-    "contextPath" : "",
-    "description" : "develop rest server"
-  } ],
-  "actualConfig" : 0,
-  "connectTimeOutMillis" : 3000,
-  "readTimeOutMillis" : 3000,
-  "connectionPingEveryMillis" : 1000
+    "list": [{
+            "ip": "localhost",
+            "portRest": 7777,
+            "portApache": 7780,
+            "name": "local",
+            "contextPath": "",
+            "description": "develop rest server"
+        }],
+    "actualConfig": 0,
+    "connectTimeOutMillis": 3000,
+    "readTimeOutMillis": 3000,
+    "connectionPingEveryMillis": 1000,
+    "oauth2TokenURL": "http://localhost:7777/oauth/token"
 }
