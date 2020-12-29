@@ -16,7 +16,7 @@
     "b" : "0",
     "a" : "255"
   },
-  "swing_personalization.key.int.tooltip_init_delay" : 0.0,
+  "swing_personalization.key.int.tooltip_init_delay" : 300,
   "swing_personalization.key.color.info" : {
     "r" : "25",
     "g" : "118",
@@ -24,9 +24,9 @@
     "a" : "255"
   },
   "swing_personalization.key.int.tooltip_desmiss_delay" : 30000,
-  "files_personalization.key.string.temp_folder" : "temp",
-  "swing_personalization.key.boolean.use_animations_notifications" : true,
-  "swing_personalization.key.boolean.use_antialiasing" : true,
+  "swing_personalization.key.boolean.show_notification_after_tray" : true,
+  "swing_personalization.key.boolean.use_animations_notifications" : false,
+  "swing_personalization.key.boolean.use_antialiasing" : false,
   "swing_personalization.key.color.main" : {
     "r" : "68",
     "g" : "138",
@@ -34,14 +34,19 @@
     "a" : "255"
   },
   "swing_personalization.key.boolean.hide_to_system_tray" : true,
-  "swing_personalization.key.boolean.use_double_delete_check" : false,
+  "swing_personalization.key.boolean.use_double_delete_check" : true,
   "swing_personalization.key.color.secundary" : {
     "r" : "13",
     "g" : "71",
     "b" : "161",
     "a" : "255"
   },
-  "material_personalization.key.boolean.show_icon_input" : true,
+  "swing_personalization.key.color.shadow_off" : {
+    "r" : "189",
+    "g" : "189",
+    "b" : "189",
+    "a" : "255"
+  },
   "swing_personalization.key.color.background_panel" : {
     "r" : "255",
     "g" : "255",
@@ -49,7 +54,7 @@
     "a" : "255"
   },
   "swing_personalization.key.boolean.use_animations" : false,
-  "swing_personalization.key.boolean.use_shadow" : true,
+  "swing_personalization.key.boolean.use_shadow" : false,
   "swing_personalization.key.icon.button_view" : {
     "ch" : "59632",
     "size" : "24.0"
@@ -66,7 +71,6 @@
     "b" : "0",
     "a" : "255"
   },
-  "model_personalization.key.boolean.show_icon_detail" : true,
   "swing_personalization.key.color.button_view" : {
     "r" : "69",
     "g" : "90",
@@ -79,7 +83,6 @@
     "b" : "192",
     "a" : "255"
   },
-  "material_personalization.key.boolean.format_text_fields" : true,
   "swing_personalization.key.color.accent" : {
     "r" : "41",
     "g" : "121",
