@@ -7,7 +7,7 @@ plugins {
 
 group = 'com.jhw.sistema'
 
-version = '2.1.0.SNAPSHOT.20201219'
+version = '2.2.0.SNAPSHOT.20201228'
 
 mainClassName = 'com.jhw.sistema.admin.application.Main'
 
@@ -43,7 +43,6 @@ dependencies {
     
     implementation project(':module-util-personalization')
     implementation project(':module-util-default_configuration')
-    implementation project(':module-util-licence')
     implementation project(':module-util-mysql')
     
     implementation project(':utils-export')
@@ -58,6 +57,12 @@ dependencies {
     
     implementation project(':module-admin-kanban-client')    
     implementation project(':module-admin-kanban-standard')
+    
+    implementation project(':module-admin-seguridad-client')    
+    implementation project(':module-admin-seguridad-standard')
+    
+    implementation project(':module-util-licence-client')    
+    implementation project(':module-util-licence-standard')
     
     implementation project(':module-util-bug')
     implementation project(':module-util-calc')

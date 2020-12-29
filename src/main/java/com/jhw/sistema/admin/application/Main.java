@@ -14,6 +14,7 @@ import com.jhw.swing.material.standards.MaterialIcons;
 import com.jhw.module.gestion.gastos.ui.module.GastoSwingModule;
 import com.jhw.module.gestion.contabilidad.ui.module.ContabilidadSwingModule;
 import com.jhw.module.admin.kanban.ui.module.KanbanSwingModule;
+import com.jhw.module.admin.seguridad.ui.module.SeguridadSwingModule;
 import com.jhw.module.util.authentication_manager.ui.module.AuthSwingModule;
 import com.jhw.module.util.local_server.ui.module.LocalServerSwingModule;
 import com.jhw.module.util.rest_config.ui.module.RestConfigSwingModule;
@@ -49,7 +50,8 @@ public class Main {
                         
                         ContabilidadSwingModule.init(),
                         GastoSwingModule.init(),
-                        KanbanSwingModule.init()
+                        KanbanSwingModule.init(),
+                        SeguridadSwingModule.init()
                 );
                 return null;
             }

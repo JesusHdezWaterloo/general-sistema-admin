@@ -3,14 +3,12 @@ package com.jhw.sistema.admin.application;
 import com.clean.core.app.services.Notification;
 import com.clean.core.app.services.NotificationsGeneralType;
 import com.clean.swing.app.DefaultSwingApplication;
-import static com.clean.swing.app.RootView.LOGIN_NAME;
 import com.jhw.utils.file.FILE;
 import com.jhw.utils.file.PersonalizationFiles;
 import com.jhw.sistema.admin.application.services.ExceptionServiceImplementation;
 import com.jhw.sistema.admin.application.services.NavigationServiceImplementation;
 import com.jhw.sistema.admin.application.services.NotificationServiceImplementation;
 import com.jhw.sistema.admin.application.services.ResourceServiceImplementation;
-import com.jhw.module.util.licence.services.LicenceHandler;
 import com.jhw.module.util.personalization.core.domain.Personalization;
 import com.jhw.module.util.personalization.services.PersonalizationHandler;
 import com.jhw.swing.bundles.tray.SystemTrayInstaller;
@@ -48,15 +46,6 @@ public class SwingApplication extends DefaultSwingApplication {
         //aqui, despues que se instalaron los modulos para que coja el icon
         if (PersonalizationHandler.getBoolean(Personalization.KEY_HIDE_TO_SYSTEM_TRAY)) {
             SystemTrayInstaller.builder(rootView()).build();
-        }
-    }
-
-    @Override
-    public void navigateTo(String string, Object... o) {
-        if (LicenceHandler.isLicenceCorrect()) {
-            super.navigateTo(string, o);
-        } else {
-            super.navigateTo(LOGIN_NAME);
         }
     }
 
