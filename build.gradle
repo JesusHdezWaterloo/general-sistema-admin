@@ -5,12 +5,11 @@ plugins {
     id 'application'
 }
 
-group = 'com.jhw.sistema'
+group = 'com.root101.sistema'
 
-version = '2.2.0.SNAPSHOT.20201228'
+version = '2.9.9.SNAPSHOT.20210101'
 
-mainClassName = 'com.jhw.sistema.admin.application.Main'
-
+mainClassName = 'com.root101.sistema.admin.application.Main'
 
 repositories {
     jcenter()
