@@ -1,7 +1,7 @@
-package com.jhw.sistema.admin.application.services;
+package com.root101.sistema.admin.application.services;
 
-import com.clean.core.app.services.Notification;
-import com.clean.core.app.services.NotificationServiceFunctional;
+import com.root101.clean.core.app.services.NotificationHandler;
+import com.root101.clean.core.app.services.NotificationServiceFunctional;
 
 /**
  *
@@ -11,7 +11,7 @@ public class NotificationServiceImplementation extends NotificationServiceFuncti
 
     public static NotificationServiceImplementation init() {
         NotificationServiceImplementation notif = new NotificationServiceImplementation();
-        Notification.registerNotificationService(notif);
+        NotificationHandler.registerNotificationService(notif);
         return notif;
     }
 
