@@ -8,18 +8,18 @@ import com.jhw.module.util.calc.CalcSwingModule;
 import com.jhw.swing.material.components.container.panel._PanelGradient;
 import javax.swing.JOptionPane;
 import com.jhw.module.util.default_config.DefaultConfigSwingModule;
-import com.jhw.module.util.licence.ui.module.LicenceSwingModule;
+import com.root101.module.control.licence.ui.module.LicenceSwingModule;
 import com.jhw.module.util.console.ConsoleSwingModule;
 import com.jhw.swing.material.standards.MaterialIcons;
-import com.jhw.module.gestion.gastos.ui.module.GastoSwingModule;
-import com.jhw.module.gestion.contabilidad.ui.module.ContabilidadSwingModule;
-import com.jhw.module.admin.kanban.ui.module.KanbanSwingModule;
-import com.jhw.module.admin.seguridad.ui.module.SeguridadSwingModule;
 import com.jhw.module.util.authentication_manager.ui.module.AuthSwingModule;
 import com.jhw.module.util.local_server.ui.module.LocalServerSwingModule;
 import com.jhw.module.util.rest_config.ui.module.RestConfigSwingModule;
 import com.jhw.module.util.tec.TecSwingModule;
 import com.jhw.swing.material.components.splashScreen.SplashScreen;
+import com.root101.module.admin.kanban.ui.module.KanbanSwingModule;
+import com.root101.module.admin.seguridad.ui.module.SeguridadSwingModule;
+import com.root101.module.gestion.contabilidad.ui.module.ContabilidadSwingModule;
+import com.root101.module.gestion.gastos.ui.module.GastoSwingModule;
 
 /**
  *

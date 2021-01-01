@@ -1,8 +1,8 @@
 package com.jhw.sistema.admin.application;
 
-import com.clean.core.app.services.Notification;
-import com.clean.core.app.services.NotificationsGeneralType;
-import com.clean.swing.app.DefaultSwingApplication;
+import com.root101.clean.core.app.services.NotificationHandler;
+import com.root101.clean.core.app.services.NotificationsGeneralType;
+import com.root101.clean.swing.app.DefaultSwingApplication;
 import com.jhw.utils.file.FILE;
 import com.jhw.utils.file.PersonalizationFiles;
 import com.jhw.sistema.admin.application.services.ExceptionServiceImplementation;
@@ -58,7 +58,7 @@ public class SwingApplication extends DefaultSwingApplication {
             }
         } catch (Exception ex) {
         }
-        Notification.showConfirmDialog(NotificationsGeneralType.CONFIRM_ERROR, "Error eliminando la carpeta temporal. Esto NO afecta el sistema,\npero con el tiempo puede que ocupe mucho espacio innecesariamente.");
+        NotificationHandler.showConfirmDialog(NotificationsGeneralType.CONFIRM_ERROR, "Error eliminando la carpeta temporal. Esto NO afecta el sistema,\npero con el tiempo puede que ocupe mucho espacio innecesariamente.");
     }
 
 }

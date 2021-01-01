@@ -1,7 +1,7 @@
 package com.jhw.sistema.admin.application.services;
 
-import com.clean.core.app.services.Navigation;
-import com.clean.core.app.services.NavigationService;
+import com.root101.clean.core.app.services.NavigationHandler;
+import com.root101.clean.core.app.services.NavigationService;
 import static com.jhw.sistema.admin.application.Main.app;
 
 /**
@@ -12,7 +12,7 @@ public class NavigationServiceImplementation implements NavigationService {
 
     public static NavigationServiceImplementation init() {
         NavigationServiceImplementation nav = new NavigationServiceImplementation();
-        Navigation.registerNavigationService(nav);
+        NavigationHandler.registerNavigationService(nav);
         return nav;
     }
 

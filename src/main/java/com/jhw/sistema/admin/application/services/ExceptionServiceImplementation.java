@@ -1,7 +1,7 @@
 package com.jhw.sistema.admin.application.services;
 
-import com.clean.core.app.services.ExceptionHandler;
-import com.clean.core.app.services.ExceptionHandlerServiceFunctional;
+import com.root101.clean.core.app.services.ExceptionHandler;
+import com.root101.clean.core.app.services.ExceptionHandlerServiceFunctional;
 
 /**
  *
@@ -11,7 +11,7 @@ public class ExceptionServiceImplementation extends ExceptionHandlerServiceFunct
 
     public static ExceptionServiceImplementation init() {
         ExceptionServiceImplementation exc = new ExceptionServiceImplementation();
-        ExceptionHandler.registerExceptionHandlerService(exc);
+        ExceptionHandler.registerExceptionService(exc);
         return exc;
     }
 
