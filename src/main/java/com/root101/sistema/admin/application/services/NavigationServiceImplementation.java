@@ -1,8 +1,8 @@
-package com.jhw.sistema.admin.application.services;
+package com.root101.sistema.admin.application.services;
 
 import com.root101.clean.core.app.services.NavigationHandler;
 import com.root101.clean.core.app.services.NavigationService;
-import static com.jhw.sistema.admin.application.Main.app;
+import static com.root101.sistema.admin.application.Main.app;
 
 /**
  *

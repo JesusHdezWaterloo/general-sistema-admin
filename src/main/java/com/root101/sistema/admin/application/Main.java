@@ -1,4 +1,4 @@
-package com.jhw.sistema.admin.application;
+package com.root101.sistema.admin.application;
 
 import com.jhw.module.util.company.ui.module.CompanySwingModule;
 import com.jhw.swing.bundles.loading.LoadingProcess;

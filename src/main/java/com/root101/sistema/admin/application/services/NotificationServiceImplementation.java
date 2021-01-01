@@ -1,4 +1,4 @@
-package com.jhw.sistema.admin.application.services;
+package com.root101.sistema.admin.application.services;
 
 import com.root101.clean.core.app.services.NotificationHandler;
 import com.root101.clean.core.app.services.NotificationServiceFunctional;

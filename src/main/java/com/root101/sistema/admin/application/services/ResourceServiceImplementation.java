@@ -1,4 +1,4 @@
-package com.jhw.sistema.admin.application.services;
+package com.root101.sistema.admin.application.services;
 
 import com.root101.clean.core.domain.services.ResourceHandler;
 import com.root101.clean.core.domain.services.ResourceBundleUtils;
