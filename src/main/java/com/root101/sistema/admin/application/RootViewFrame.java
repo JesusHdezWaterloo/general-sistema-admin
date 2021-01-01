@@ -1,11 +1,11 @@
-package com.jhw.sistema.admin.application;
+package com.root101.sistema.admin.application;
 
-import com.clean.swing.app.DefaultRootView;
-import com.jhw.sistema.admin.application.dashboard.DashBoardFormateer;
+import com.root101.clean.swing.app.DefaultRootView;
+import com.root101.sistema.admin.application.dashboard.DashBoardFormateer;
 import com.jhw.swing.material.components.dashboard.taskpane.expanded.DashBoardExtends;
 import com.jhw.swing.material.components.login.DefaultLoginPanel;
 import com.jhw.swing.material.standards.MaterialIcons;
-import com.jhw.utils.interfaces.Update;
+import com.root101.utils.interfaces.Update;
 import java.awt.Component;
 import java.beans.PropertyChangeListener;
 
