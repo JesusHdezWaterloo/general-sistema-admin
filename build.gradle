@@ -7,7 +7,7 @@ plugins {
 
 group = 'com.root101.sistema'
 
-version = '2.9.9.SNAPSHOT.20210101'
+version = '3.0.0.SNAPSHOT.20210109'
 
 mainClassName = 'com.root101.sistema.admin.application.Main'
 
@@ -80,7 +80,6 @@ dependencies {
     
     //injection
     compile group: 'com.google.inject', name: 'guice', version: '4.2.3'
-    compile group: 'javax.inject', name: 'javax.inject', version: '1'
 }
 
 launch4j {
