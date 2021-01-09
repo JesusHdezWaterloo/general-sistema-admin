@@ -1,23 +1,44 @@
+/*
+ * Copyright 2021 Root101 (jhernandezb96@gmail.com, +53-5-426-8660).
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Or read it directly from LICENCE.txt file at the root of this project.
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
 package com.root101.sistema.admin.application.dashboard;
 
-import com.jhw.module.util.personalization.core.domain.Personalization;
-import com.jhw.module.util.personalization.services.PersonalizationHandler;
-import com.jhw.swing.material.components.container.panel._PanelGradient;
-import com.jhw.swing.material.components.dashboard.taskpane.expanded.DashBoardExtends;
-import com.jhw.swing.material.components.dashboard.taskpane.expanded.DownPanel;
-import com.jhw.swing.material.components.dashboard.taskpane.expanded.UpPanel;
-import com.jhw.swing.material.components.taskpane.CollapseMenu;
-import com.jhw.swing.material.components.taskpane.TaskButton;
-import com.jhw.swing.material.standards.MaterialColors;
-import com.jhw.swing.material.standards.MaterialFontRoboto;
-import com.jhw.swing.util.Utils;
-import com.jhw.swing.util.enums.GradientEnum;
+import com.root101.module.util.personalization.core.domain.Personalization;
+import com.root101.module.util.personalization.services.PersonalizationHandler;
+import com.root101.swing.material.components.container.panel._PanelGradient;
+import com.root101.swing.material.components.dashboard.taskpane.expanded.DashBoardExtends;
+import com.root101.swing.material.components.dashboard.taskpane.expanded.DownPanel;
+import com.root101.swing.material.components.dashboard.taskpane.expanded.UpPanel;
+import com.root101.swing.material.components.taskpane.CollapseMenu;
+import com.root101.swing.material.components.taskpane.TaskButton;
+import com.root101.swing.material.standards.MaterialColors;
+import com.root101.swing.material.standards.MaterialFontRoboto;
+import com.root101.swing.util.Utils;
+import com.root101.swing.util.enums.GradientEnum;
 import java.awt.Color;
 import java.awt.Dimension;
 import java.util.function.Consumer;
 import javax.swing.SwingConstants;
 import javax.swing.border.LineBorder;
 
+/**
+ *
+ * @author Root101 (jhernandezb96@gmail.com, +53-5-426-8660)
+ * @author JesusHdezWaterloo@Github
+ */
 public class DashBoardFormateer {
 
     private static final Color SECUNDARY_0 = MaterialColors.BLUE_300;
