@@ -16,18 +16,18 @@
  */
 package com.root101.sistema.admin.application.dashboard;
 
-import com.jhw.module.util.personalization.core.domain.Personalization;
-import com.jhw.module.util.personalization.services.PersonalizationHandler;
-import com.jhw.swing.material.components.container.panel._PanelGradient;
-import com.jhw.swing.material.components.dashboard.taskpane.expanded.DashBoardExtends;
-import com.jhw.swing.material.components.dashboard.taskpane.expanded.DownPanel;
-import com.jhw.swing.material.components.dashboard.taskpane.expanded.UpPanel;
-import com.jhw.swing.material.components.taskpane.CollapseMenu;
-import com.jhw.swing.material.components.taskpane.TaskButton;
-import com.jhw.swing.material.standards.MaterialColors;
-import com.jhw.swing.material.standards.MaterialFontRoboto;
-import com.jhw.swing.util.Utils;
-import com.jhw.swing.util.enums.GradientEnum;
+import com.root101.module.util.personalization.core.domain.Personalization;
+import com.root101.module.util.personalization.services.PersonalizationHandler;
+import com.root101.swing.material.components.container.panel._PanelGradient;
+import com.root101.swing.material.components.dashboard.taskpane.expanded.DashBoardExtends;
+import com.root101.swing.material.components.dashboard.taskpane.expanded.DownPanel;
+import com.root101.swing.material.components.dashboard.taskpane.expanded.UpPanel;
+import com.root101.swing.material.components.taskpane.CollapseMenu;
+import com.root101.swing.material.components.taskpane.TaskButton;
+import com.root101.swing.material.standards.MaterialColors;
+import com.root101.swing.material.standards.MaterialFontRoboto;
+import com.root101.swing.util.Utils;
+import com.root101.swing.util.enums.GradientEnum;
 import java.awt.Color;
 import java.awt.Dimension;
 import java.util.function.Consumer;
